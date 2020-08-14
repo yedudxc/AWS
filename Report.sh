@@ -10,3 +10,4 @@ CPUAvg=$(top -bn1 | grep load | awk '{printf "%.2f%%\t\t\n", $(NF-2)}')
 CPUcount=$(lscpu | grep 'CPU(s):' | head -1 | awk '{print $2}')
 echo "$OS$MEMORY  $TotalRAM $DISK  $DiskTotal $CPUAvg  $CPUcount"
 echo "end of line"
+echo "2"
