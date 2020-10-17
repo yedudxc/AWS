@@ -74,8 +74,8 @@ resource "aws_db_parameter_group" "default" {
   family = var.parameter_group_family
 
   parameter {
-    name  = "max_allowed_packet"
-    value = "16777216"
+    name  = "backslash_quote"
+    value = "on"
   }
 }
 
