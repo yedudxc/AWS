@@ -1,5 +1,5 @@
 variable "aws_region" {}
-#variable "vpc_cidr" {}
+variable "vpc_cidr" {}
 variable "db_instance_class" {}
 variable "namespace" {}
 variable "identifier" {}
